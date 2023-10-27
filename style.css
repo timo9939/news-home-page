@@ -62,7 +62,34 @@ background-color: aqua;
 
 .main-container aside{
     grid-area: 1/7/6/9;
-    background-color: green;
+    background-color: var(--Very-dark-blue);
+    padding: 1vw 2vw;
+}
+
+.main-container aside h2{
+    color: var(--Soft-orange);
+}
+
+.main-container aside h3,p{
+    color: var(--Off-white);
+}
+
+.main-container aside p{
+color:var(--Grayish-blue) ;
+font-size: 14px;
+}
+
+.main-container aside article{
+    margin-top: 5vh;
+}
+
+aside hr{
+   margin-top: 5vh ;
+    
+}
+
+.aside-article p{
+    margin-top: 2vh;
 }
 
 .main-container h1{
@@ -81,6 +108,7 @@ background-color: aqua;
 .read-more-container p{
     width: 40ch;
     line-height: 4vh;
+    color: var(--Very-dark-blue);
 }
 
 .read-more-container button{
