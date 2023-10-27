@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 
 :root{
-
+    --Soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+    
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayish-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
 }
 
 *{
@@ -61,11 +67,31 @@ background-color: aqua;
 
 .main-container h1{
     grid-area: 4/1/6/4;
-    background-color: yellow;
+    /* background-color: yellow; */
+    font-size: 66px;
+    padding: 2vw 0vw;
 }
 .read-more-container{
-    background-color: red;
+    /* background-color: red; */
+
     grid-area: 4/4/6/7;
+    padding: 2vw 0vw;
+}
+
+.read-more-container p{
+    width: 40ch;
+    line-height: 4vh;
+}
+
+.read-more-container button{
+    margin-top: 10vh;
+    width: 50%;
+    height: 8vh;
+    background-color: var(--Soft-red);
+    color: aliceblue;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 /* Small news article */
