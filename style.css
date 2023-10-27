@@ -52,7 +52,7 @@ body{
 .main-container picture{
 grid-area: 1/1/4/7;
 overflow: hidden;
-background-color: aqua;
+/* background-color: aqua; */
 }
 
 .main-container picture img{
@@ -138,4 +138,16 @@ aside hr{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.article-container h2{
+    color: var(--Grayish-blue);
+}
+
+.article-container h3{
+
+}
+
+.article-container p{
+    color: var(--Dark-grayish-blue);
 }
