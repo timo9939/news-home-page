@@ -13,12 +13,13 @@
     />
 
     <title>News homepage</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <header>
       <img src="./assets/images/logo.svg" alt="W Logo of the mainpage " />
       <nav>
-        <ul>
+        <ul role="list">
           <li><a href="">Home</a></li>
           <li><a href="">New</a></li>
           <li><a href="">Popular</a></li>
@@ -29,13 +30,14 @@
     </header>
 
     <main>
-      <section class="main contianer">
+      <section class="main-container">
+
+
         <picture>
-          <source
-            srcset="/assets/images/image-web-3-desktop.jpg"
-            media="(min-width:650px)"
-          />
+          <source srcset="/assets/images/image-web-3-desktop.jpg">
+          <img src="/assets/images/image-web-3-desktop.jpg" alt="fun-picture-desktop">
         </picture>
+        
 
         <h1>The Bright Future of Web 3.0?</h1>
 
