@@ -67,3 +67,19 @@ background-color: aqua;
 }
 
 /* Small news article */
+.small-news-container{
+    display: flex;
+    margin-top: 8vh;
+    gap: 3vw;
+}
+
+.small-news-container article{
+    display: flex;
+    gap:2vw
+}
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
