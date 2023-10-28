@@ -49,13 +49,13 @@ body{
     grid-template-columns:repeat(8,1fr) ;
 }
 
-.main-container picture{
+.main-container div{
 grid-area: 1/1/4/7;
 overflow: hidden;
 /* background-color: aqua; */
 }
 
-.main-container picture img{
+.main-container div img{
     width: 100%;
     height: auto;
 }
@@ -144,10 +144,9 @@ aside hr{
     color: var(--Grayish-blue);
 }
 
-.article-container h3{
-
-}
 
 .article-container p{
     color: var(--Dark-grayish-blue);
 }
+
+/* Media Query */
