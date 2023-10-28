@@ -36,6 +36,10 @@ header ul{
     gap: 3vw;
 }
 
+nav ul li a{
+    text-decoration: none;
+}
+
 /* Main Section CSS */
 body{
     margin: 2vw 5vw;
@@ -64,6 +68,8 @@ overflow: hidden;
     grid-area: 1/7/6/9;
     background-color: var(--Very-dark-blue);
     padding: 1vw 2vw;
+
+    margin: 0vw 2vw;
 }
 
 .main-container aside h2{
