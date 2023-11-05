@@ -40,6 +40,11 @@ nav ul li a{
     text-decoration: none;
 }
 
+.mobile-nav{
+    display: none;
+}
+
+
 /* Main Section CSS */
 body{
     margin: 2vw 5vw;
@@ -52,6 +57,10 @@ body{
     grid-template-rows:repeat(5,1fr) ;
     grid-template-columns:repeat(8,1fr) ;
 }
+
+/* .main-container h1{
+    font-size: min(0.5em,66px );
+} */
 
 .main-container div{
 grid-area: 1/1/4/7;
@@ -166,14 +175,34 @@ aside hr{
 
 .main-container div{
     max-width: 60vw;
+    min-height:40vw;
 }
 
 nav{
     display: none;
 }
 
+
+.aside{
+    max-width: 60%;
+}
+
+header{
+width: 80%;
+}
+
+.mobile-nav{
+    display: flex;
+    /* flex-grow: 5; */
+   
+}
+
 .main-container .aside{
    margin: 0px;
+}
+
+.main-container h1{
+    font-size: min(4vw,66px );
 }
 
 .small-news-container{
@@ -182,6 +211,10 @@ nav{
     gap: 2em;
 }
 
+.small-news-container article{
+    display: inline-block;
+    line-height: 2.5em;
+}
 }
 
 
