@@ -193,8 +193,6 @@ width: 80%;
 
 .mobile-nav{
     display: flex;
-    /* flex-grow: 5; */
-   
 }
 
 .main-container .aside{
@@ -211,10 +209,23 @@ width: 80%;
     gap: 2em;
 }
 
-.small-news-container article{
+/* .small-news-container article{
     display: inline-block;
     line-height: 2.5em;
+} */
+
+.article-info{
+display:inline
 }
+
+.article-container{
+    display: grid;
+    grid-template-rows:repeat(3,3vw) ;
+
+    align-content: center;
+}
+
+
 }
 
 
