@@ -28,11 +28,27 @@
         </ul>
       </nav>
 
-      <img src="./assets/images/icon-menu.svg" alt="Menu-icon" class="mobile-nav">
+      <img src="./assets/images/icon-menu.svg" alt="Menu-icon" class="mobile-nav" onclick="displayMenu()">
+
+
 
     </header>
 
-    <main>
+    <main>      
+      <div id="mobile-menu">
+        <img src="./assets/images/icon-menu-close.svg" alt="close-icon" id="close-icon" onclick="closeMenu()">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">New</a></li>
+          <li><a href="">Popular</a></li>
+          <li><a href="">Trending</a></li>
+          <li><a href="">Categories</a></li>
+        </ul>
+      </div>
+
+   
+   <!-- <div id="shade"></div> -->
+
       <section class="main-container">
 
 
@@ -121,5 +137,7 @@
       </article>
       </section>
     </main>
+
+    <script src="news.js"></script>
   </body>
 </html>
